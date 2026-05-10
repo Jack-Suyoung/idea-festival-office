@@ -2,7 +2,8 @@
 
 **실행 시작**: 2026-05-10
 **입력**: 신규 발산, 후보 4개
-**현재 단계**: 7/7 — reporter 실행 중 (3개 후보 모두 진행)
+**현재 단계**: ✅ 파이프라인 완료 + GitHub Pages 배포 완료
+**배포 URL**: https://jack-suyoung.github.io/idea-festival-office/
 
 ## 단계 진행
 
@@ -14,7 +15,8 @@
 | 4 | plan_designer | ✅ 완료 | `reports/plans/{slug}.md` × 3 (BOM 163~228만원 / 모두 4개월 타이트하나 가능) |
 | 5 | evaluator 2차 | ✅ 완료 | seatfit 100 / pinchsense 92 / safealight 89 — 3개 모두 GO |
 | 6 | critic | ✅ 완료 | 3개 모두 REVISE 판정 (DROP 0) |
-| 7 | reporter | ⏳ 진행 중 | — |
+| 7 | reporter | ✅ 완료 | `reports/final/` 4개 (3 후보 + INDEX) |
+| 8 | GitHub Pages 배포 | ✅ 완료 | https://jack-suyoung.github.io/idea-festival-office/ |
 
 ## 후보 목록 (batch2) + 1차 평가
 
