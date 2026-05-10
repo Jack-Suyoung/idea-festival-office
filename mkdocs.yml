@@ -1,0 +1,89 @@
+site_name: 아이디어 페스티벌 2026 출품 후보
+site_description: 현대차·기아 사내 아이디어 페스티벌 Maker's Track 출품 후보 보고서
+site_url: https://jack-suyoung.github.io/idea-festival-office/
+
+docs_dir: reports
+
+theme:
+  name: material
+  language: ko
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: 다크 모드로 전환
+    - scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: 라이트 모드로 전환
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.expand
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - toc.follow
+  icon:
+    logo: material/lightbulb-on
+  font:
+    text: Noto Sans KR
+    code: Roboto Mono
+
+plugins:
+  - search:
+      lang: ['en', 'ja']
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - 홈: index.md
+  - 파이프라인 상태: status.md
+  - 최종 보고서:
+      - 인덱스 (3안 비교): final/2026-05-10-INDEX.md
+      - SeatFit Coach (1순위, 100점): final/2026-05-10-seatfit-coach.md
+      - PinchSense (2순위, 92점): final/2026-05-10-pinchsense.md
+      - SafeAlight Pod (3순위, 89점): final/2026-05-10-safealight-pod.md
+  - 아이디어 발산:
+      - Batch1 (2026-05-10): ideas/2026-05-10-batch1.md
+      - Batch2 (2026-05-10): ideas/2026-05-10-batch2.md
+      - 사용자 피드백: ideas/feedback.md
+  - 시장 조사:
+      - SeatFit Coach: ideas/seatfit-coach-market.md
+      - PinchSense: ideas/pinchsense-market.md
+      - SafeAlight Pod: ideas/safealight-pod-market.md
+      - LullaMirror (REVISE): ideas/lullamirror-market.md
+  - 4개월 로드맵:
+      - SeatFit Coach: plans/seatfit-coach.md
+      - PinchSense: plans/pinchsense.md
+      - SafeAlight Pod: plans/safealight-pod.md
+  - 정량 평가:
+      - SeatFit Coach: evaluations/seatfit-coach.md
+      - PinchSense: evaluations/pinchsense.md
+      - SafeAlight Pod: evaluations/safealight-pod.md
+      - LullaMirror (REVISE): evaluations/lullamirror.md
+  - Critic (5축 공격):
+      - SeatFit Coach: evaluations/seatfit-coach-critique.md
+      - PinchSense: evaluations/pinchsense-critique.md
+      - SafeAlight Pod: evaluations/safealight-pod-critique.md
